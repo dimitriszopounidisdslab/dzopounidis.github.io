@@ -91,9 +91,15 @@
 
         
         </div>
-        <button class="md:hidden text-blue-700 text-2xl">
+        <button id="mobile-menu-button" class="md:hidden text-blue-700 text-2xl">
     <i class="fas fa-bars"></i>
 </button>
+
+<div id="mobile-menu" class="hidden absolute top-20 left-0 w-full bg-white border-b border-blue-100 shadow-lg md:hidden">
+    <a href="#about" class="block px-8 py-5 text-sm font-bold uppercase tracking-wider text-slate-800 border-b border-gray-100">About</a>
+    <a href="#strategic-roles" class="block px-8 py-5 text-sm font-bold uppercase tracking-wider text-slate-800 border-b border-gray-100">Industry Projects</a>
+    <a href="#pipeline" class="block px-8 py-5 text-sm font-bold uppercase tracking-wider text-slate-800">Research Pipeline</a>
+</div>
     </div>
 </nav>
 
@@ -287,6 +293,13 @@ Dimitris Zopounidis is a PhD Candidate at the Technical University of Crete, wor
             </div>
         </div>
     </footer>
+<script>
+    const menuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
 
+    menuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+</script>
 </body>
 </html>
