@@ -300,6 +300,14 @@ Dimitris Zopounidis is a PhD Candidate at the Technical University of Crete, wor
     menuButton.addEventListener('click', () => {
         mobileMenu.classList.toggle('hidden');
     });
+
+    const mobileLinks = mobileMenu.querySelectorAll('a');
+
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+    });
 </script>
 </body>
 </html>
