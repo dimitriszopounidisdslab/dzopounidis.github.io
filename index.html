@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimitris Zopounidis | PhD Candidate & AI Researcher</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="profile.jpg">
+
+    <!-- Premium Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --aviation-blue: #0073b9;
+            --deep-blue: #005b92;
+            --alpha-blue: #004685;
+            --sky-blue: #00a4e3;
+        }
+
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; color: var(--deep-blue); scroll-behavior: smooth; font-style: normal !important; }
+        h1, h2, h3, h4, p, span, a { font-style: normal !important; }
+        h1, h2, h3, h4 { font-family: 'Outfit', sans-serif; }
+
+        /* Global removal of italics and faded effects */
+        * { font-style: normal !important; text-decoration: none !important; }
+
+        .nav-link { 
+            font-size: 11px; font-weight: 700; letter-spacing: 0.1em; 
+            text-transform: uppercase; color: var(--deep-blue); opacity: 1; transition: all 0.3s;
+        }
+        .nav-link:hover { color: var(--aviation-blue); }
+
+        .premium-card { 
+            background: #ffffff; border: 1.5px solid #e2e8f0; 
+            transition: all 0.4s ease; 
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+        .premium-card:hover { 
+            border-color: var(--aviation-blue); transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0, 115, 185, 0.1);
+        }
+
+        .pipeline-tag {
+            background: var(--aviation-blue); color: #ffffff;
+            font-size: 10px; font-weight: 800; padding: 4px 10px; border-radius: 4px;
+            text-transform: uppercase; letter-spacing: 0.05em;
+        }
+
+        .network-logo {
+            filter: none; /* Removed grayscale */
+            opacity: 1;    /* Removed transparency */
+            transition: all 0.4s ease;
+        }
+        .network-logo:hover {
+            transform: scale(1.08);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+<!-- Navigation -->
+<nav class="fixed w-full z-50 bg-white shadow-sm border-b border-blue-100">
+    <div class="max-w-6xl mx-auto px-8 h-20 flex items-center justify-between">
+        
+        <span class="font-bold text-xl tracking-tighter text-aviation flex items-center h-full">
+            D. Zopounidis
+        </span>
+
+        <div class="hidden md:flex items-center gap-10 h-full">
+            <a href="#about" class="nav-link flex items-center h-full">About</a>
+
+            <a href="#strategic-roles" class="nav-link text-blue-600 font-black flex items-center h-full">
+                Synergy & Roles
+            </a>
+
+            <a href="#pipeline" class="nav-link flex items-center h-full">
+                Research Pipeline
+            </a>
+
+            <a href="CV_Zopounidis.pdf"
+               target="_blank"
+               class="border border-blue-600 px-3 h-9 rounded-md flex items-center text-sm text-blue-600 hover:bg-blue-600 hover:text-white transition">
+               Download CV
+            </a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<header id="about" class="pt-48 pb-24 border-b border-blue-50 bg-[#f8fbff]">
+    <div class="max-w-6xl mx-auto px-8 grid md:grid-cols-12 gap-16 items-center">
+        
+        <div class="md:col-span-7">
+
+            <div class="inline-flex items-center border border-blue-100 bg-white/80 rounded-full px-5 py-2 mb-6 shadow-sm">
+                <span class="text-[11px] tracking-[0.18em] uppercase text-slate-500 font-semibold">
+                    PhD Candidate | Business Analytics, AI & Aviation Intelligence
+                </span>
+            </div>
+
+            <h1 class="text-6xl md:text-8xl font-bold tracking-tight mb-8 text-slate-900">
+                Dimitris <br>
+                <span style="color: var(--aviation-blue);">Zopounidis</span>
+            </h1>
+
+            <p class="text-xl md:text-2xl text-slate-800 font-medium max-w-xl mb-10 leading-relaxed">
+                Bridging Artificial Intelligence and Sectoral Data Analytics through applied research and strategic collaborative decision-making.
+            </p>
+
+            <div class="flex flex-wrap gap-4">
+                
+
+                <a href="https://www.linkedin.com/in/dimitriszopounidis/"
+                   target="_blank"
+                   class="bg-white text-blue-700 border border-blue-200 px-8 py-3 rounded-lg font-bold text-sm hover:bg-blue-50 transition flex items-center gap-3 shadow-sm">
+                    <i class="fab fa-linkedin"></i> LinkedIn Profile
+                </a>
+            </div>
+
+        </div>
+
+        <div class="md:col-span-5 relative">
+            <div class="relative p-2 bg-white border-2 border-blue-100 rounded-3xl shadow-2xl">
+                <img src="profile.jpg" alt="Dimitris Zopounidis" class="w-full h-auto rounded-2xl shadow-sm">
+            </div>
+        </div>
+
+    </div>
+</header>
+    <!-- Strategic Roles -->
+    <section id="strategic-roles" class="py-32 max-w-6xl mx-auto px-8 bg-white">
+        <h2 class="text-xs font-bold uppercase tracking-[0.4em] text-blue-600 mb-12">Academia-Industry Collaborative Synergy</h2>
+        <div class="grid md:grid-cols-2 gap-10">
+            <!-- Alpha Bank -->
+            <div class="premium-card p-12 rounded-[2.5rem] border-l-4 border-l-[#183D7A]">
+                <div class="flex justify-between items-start mb-10">
+                    <img src="alpha_logo.png" alt="Alpha Bank Logo" class="h-10 w-auto">
+                    <span class="text-[9px] font-bold bg-blue-600 text-white px-3 py-1 rounded-full uppercase tracking-widest">Lead Researcher</span>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 uppercase tracking-tighter text-slate-900">Alpha Bank</h3>
+                <p class="font-bold text-blue-700 mb-4 uppercase text-sm">Artificial Intelligence Risk Management Researcher</p>
+                <p class="text-slate-700 leading-relaxed font-medium">
+                    Leading AI governance, risk analytics, and data-driven strategic research projects commissioned by Alpha Bank.
+                </p>
+            </div>
+            <!-- CAO -->
+            <div class="premium-card p-12 rounded-[2.5rem] border-l-4 border-l-[#0073b9]">
+                <div class="flex justify-between items-start mb-10">
+                    <img src="Aviation_Life_Profile_Pic_1.jpg" alt="CAO Logo" class="h-12 w-12 rounded-xl shadow-md">
+                    <span class="text-[10px] font-bold bg-sky-600 text-white px-3 py-1 rounded-full uppercase tracking-widest">Research Head</span>
+                </div>
+                <h3 class="text-2xl font-bold mb-4 uppercase tracking-tighter text-slate-900">Crete Aviation Observatory (CAO)</h3>
+                <p class="font-bold text-aviation mb-4 uppercase text-sm">Founder and Head of Research</p>
+                <p class="text-slate-700 leading-relaxed font-medium">
+                    Spearheading primary data analysis for the Mediterranean aviation sector and destination air connectivity.
+                </p>
+                <a href="https://aviationlife.gr/category/crete-aviation-observatory/" target="_blank" class="text-xs font-bold text-aviation uppercase tracking-widest hover:text-deep-blue border-b border-aviation">Explore Observatory's Archive <i class="fas fa-arrow-right ml-2"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Pipeline -->
+    <section id="pipeline" class="py-32 bg-[#f1f5f9] border-y border-blue-100">
+        <div class="max-w-6xl mx-auto px-8">
+            <h2 class="text-4xl font-bold mb-16 tracking-tight underline decoration-sky-400 decoration-4 underline-offset-8 uppercase text-slate-900">Research Pipeline</h2>
+            <div class="grid gap-8">
+                <div class="premium-card p-8 rounded-2xl">
+                    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                        <h4 class="text-xl font-bold uppercase tracking-tight text-slate-900">Corporate Financial Performance and ESG Factors in the Airline Sector</h4>
+                        <span class="pipeline-tag">Active Research</span>
+                    </div>
+                    <p class="text-slate-800 font-semibold text-sm">Zopounidis, D., & Doumpos, M., Technical University of Crete.</p>
+                </div>
+                <div class="premium-card p-8 rounded-2xl">
+                    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                        <h4 class="text-xl font-bold uppercase tracking-tight text-slate-900">Machine Learning in Aviation: A Comprehensive Literature Review</h4>
+                        <span class="pipeline-tag">Active Research</span>
+                    </div>
+                    <p class="text-slate-800 font-semibold text-sm">Zopounidis, D., Fafalios, P., Technical University of Crete.</p>
+                </div>
+                <div class="premium-card p-8 rounded-2xl">
+                    <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                        <h4 class="text-xl font-bold uppercase tracking-tight text-slate-900">AI Adoption by SMEs and Inclusive Regional Development in Island Economies</h4>
+                        <span class="pipeline-tag">Active Research</span>
+                    </div>
+                    <p class="text-slate-800 font-semibold text-sm">Lemonakis, C., Zopounidis, D., Hellenic Mediterranena University and Technical University of Crete.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Institutional Network -->
+    <section id="network" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-8">
+            <h2 class="text-[11px] font-bold uppercase tracking-[0.5em] text-blue-900 text-center mb-16">Academic & Research Network</h2>
+            <div class="flex flex-wrap justify-center items-center gap-16 md:gap-24">
+                <a href="https://www.dslab.tuc.gr/en/home" target="_blank" class="text-center group">
+                    <img src="ds_lab_logo.jpg" alt="DS Lab Logo" class="h-16 w-auto mx-auto network-logo mb-4">
+                    <p class="text-[10px] font-bold text-slate-900 group-hover:text-blue-600 transition">Data Science Laboratory</p>
+                </a>
+                <a href="https://www.febsociety.org/" target="_blank" class="text-center group">
+                    <img src="febs_coin.png" alt="FEBS Emblem" class="h-16 w-auto mx-auto network-logo mb-4">
+                    <p class="text-[10px] font-bold text-slate-900 group-hover:text-blue-900 transition">FEBS Society</p>
+                </a>
+                <a href="https://dimitriszopounidisdslab.github.io/DS-Lab-TUC/" target="_blank" class="text-center group">
+                    <div class="h-16 w-16 mx-auto flex items-center justify-center bg-blue-100 rounded-full network-logo mb-4 shadow-sm border border-blue-200">
+                        <i class="fas fa-microchip text-blue-700 text-2xl"></i>
+                    </div>
+                    <p class="text-[10px] font-bold text-slate-900 group-hover:text-blue-600 transition">Applied AI Lab</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Section -->
+    <section class="py-32 bg-[#f8fbff] border-t border-blue-50">
+        <div class="max-w-6xl mx-auto px-8">
+            <div class="max-w-4xl mx-auto p-10 md:p-16 border-2 border-blue-600 rounded-[2.5rem] bg-white shadow-xl flex flex-col md:flex-row items-center gap-12">
+                <div class="w-20 h-20 md:w-24 md:h-24 bg-blue-600 flex items-center justify-center rounded-2xl text-white text-4xl shadow-md">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="flex-1 text-center md:text-left">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 tracking-tight uppercase text-slate-900">Artificial Intelligence and Applications in Management</h2>
+                    <p class="text-lg text-slate-800 mb-6 font-bold">Published Scientific Book | Co-authored with Prof. Constantin Zopounidis & Assistant Professor Angelos Kostis</p>
+                    <a href="https://www.barbounakis.com/product/techniti-noimosyni-kai-efarmoges-sto-manatzment/" target="_blank" class="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-bold text-xs uppercase tracking-widest hover:bg-deep-blue transition shadow-lg">
+                        View Publication <i class="fas fa-external-link-alt ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="pt-32 pb-16 bg-white border-t border-blue-100">
+        <div class="max-w-6xl mx-auto px-8">
+            <div class="grid md:grid-cols-2 gap-20 items-end">
+                <div>
+                    <h2 class="text-5xl font-extrabold mb-8 tracking-tighter uppercase text-slate-900">Connect</h2>
+                    <p class="text-blue-700 font-bold mb-12 uppercase text-[11px] tracking-widest">Academia & Industry Research Collaboration</p>
+                    <div class="flex gap-10 text-2xl text-sky-400">
+                        <a href="mailto:dzopounidis@tuc.gr" class="hover:text-aviation transition"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/dimitriszopounidis/" target="_blank" class="hover:text-aviation transition"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://aviationlife.gr" target="_blank" class="hover:text-aviation transition"><i class="fas fa-paper-plane"></i></a>
+                    </div>
+                </div>
+                <div class="text-right">
+                    <p class="text-2xl font-bold mb-4 text-aviation">dzopounidis[@]tuc.gr</p>
+                    <p class="text-[10px] font-black uppercase tracking-widest text-slate-900">Technical University of Crete | Chania, Greece</p>
+                </div>
+            </div>
+            <div class="mt-32 pt-8 border-t border-gray-100 text-center">
+                <p class="text-[10px] text-slate-900 font-bold uppercase tracking-[0.6em]">© 2026 Dimitris Zopounidis — Academia-Industry Synergy</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
